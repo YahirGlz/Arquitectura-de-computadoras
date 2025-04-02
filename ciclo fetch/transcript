@@ -1,0 +1,107 @@
+# Compile of PRUEBA_CICLO_FETCH.v failed with 2 errors.
+# Compile of PRUEBA_CICLO_FETCH.v was successful.
+# Compile of PRUEBA_CICLO_FETCH.v failed with 2 errors.
+# Compile of PRUEBA_CICLO_FETCH.v was successful.
+vsim -gui work.cicloFetch_TB
+# vsim -gui work.cicloFetch_TB 
+# Start time: 10:32:34 on Apr 02,2025
+# Loading work.cicloFetch_TB
+# Loading work.cicloFetch
+# Loading work.ajusteDirecciones
+# Loading work.PC
+# Loading work.memoryI
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'instruccionF'. The port definition is at: C:/Users/usuario/Downloads/Yahir/PRUEBA_CICLO_FETCH.v(39).
+#    Time: 0 ns  Iteration: 0  Instance: /cicloFetch_TB/CF File: C:/Users/usuario/Downloads/Yahir/PRUEBA_CICLO_FETCH.v Line: 57
+add wave -position end  sim:/cicloFetch_TB/instruccion_tb
+add wave -position end  sim:/cicloFetch_TB/clk_tb
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 1 of file "dataMeI.txt". (Max is 8.)    : C:/Users/usuario/Downloads/Yahir/PRUEBA_CICLO_FETCH.v(16)
+#    Time: 0 ns  Iteration: 0  Instance: /cicloFetch_TB/CF/mi
+quit -sim
+# End time: 10:38:17 on Apr 02,2025, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 11
+# Compile of PRUEBA_CICLO_FETCH.v was successful.
+vsim -gui work.cicloFetch_TB
+# vsim -gui work.cicloFetch_TB 
+# Start time: 10:38:31 on Apr 02,2025
+# Loading work.cicloFetch_TB
+# Loading work.cicloFetch
+# Loading work.ajusteDirecciones
+# Loading work.PC
+# Loading work.memoryI
+add wave -position end  sim:/cicloFetch_TB/instruccion_tb
+add wave -position end  sim:/cicloFetch_TB/clk_tb
+# Can't move the Now cursor.
+run
+add wave -position end  sim:/cicloFetch_TB/CF/mi/instruccion
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+add wave -position end  sim:/cicloFetch_TB/CF/mi/address
+add wave -position end  sim:/cicloFetch_TB/CF/pc/out
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+quit -sim
+# End time: 10:46:52 on Apr 02,2025, Elapsed time: 0:08:21
+# Errors: 0, Warnings: 1
+# Compile of PRUEBA_CICLO_FETCH.v was successful.
+vsim -gui work.cicloFetch_TB
+# vsim -gui work.cicloFetch_TB 
+# Start time: 10:47:07 on Apr 02,2025
+# Loading work.cicloFetch_TB
+# Loading work.cicloFetch
+# Loading work.ajusteDirecciones
+# Loading work.PC
+# Loading work.memoryI
+add wave -position end  sim:/cicloFetch_TB/instruccion_tb
+add wave -position end  sim:/cicloFetch_TB/clk_tb
+run
+run
+run
+run
+run
+quit -sim
+# End time: 10:48:19 on Apr 02,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# Compile of PRUEBA_CICLO_FETCH.v was successful.
+vsim -gui work.cicloFetch_TB
+# vsim -gui work.cicloFetch_TB 
+# Start time: 10:48:39 on Apr 02,2025
+# Loading work.cicloFetch_TB
+# Loading work.cicloFetch
+# Loading work.ajusteDirecciones
+# Loading work.PC
+# Loading work.memoryI
+add wave -position end  sim:/cicloFetch_TB/instruccion_tb
+add wave -position end  sim:/cicloFetch_TB/clk_tb
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+add wave -position end  sim:/cicloFetch_TB/CF/pc/out
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+quit -sim
+# End time: 10:51:17 on Apr 02,2025, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 1
